@@ -7,8 +7,22 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary-seaGreen': '#035E9E',
-        'primary-red': '#243c5a',
+        'primaryGreen': '#035E9E',
+        'primaryRed': '#EF2327',
+        'primaryBlue': '#03081C',
+      }, 
+      spacing: {
+        'maxContainer': '1280px',
+      },
+      backgroundImage: {
+        'contactBanner': "url('/assets/images/contact-one.jpg')",
+        'contactFormBg': "url('/assets/images/contactFormBg.jpg')",
+      },
+      fontFamily: {
+        'poppins': ["Poppins", 'serif'],
+      },
+      screens: {
+        'mobile': '320px',
       },
     },
   },

@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NavbarComponent } from './navbar/navbar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { initFlowbite } from 'flowbite';
+import { HeadingComponent } from './components/heading/heading.component';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +12,7 @@ import { initFlowbite } from 'flowbite';
     RouterOutlet,
     NavbarComponent,
     ContactComponent,
+    // HeadingComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
