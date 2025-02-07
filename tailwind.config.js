@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primaryGreen': '#035E9E',
+        'primaryGreen': '#03081C',
+        // 'primaryGreen': '#035E9E',
         'primaryRed': '#EF2327',
         'primaryBlue': '#03081C',
       }, 
@@ -16,7 +17,9 @@ module.exports = {
       },
       backgroundImage: {
         'contactBanner': "url('/assets/images/contact-one.jpg')",
+        'achievementsBg': "url('/assets/images/achievements.jpg')",
         'contactFormBg': "url('/assets/images/contactFormBg.jpg')",
+        'homeBg': "url('/assets/images/homeBg.jpg')",
       },
       fontFamily: {
         'poppins': ["Poppins", 'serif'],

@@ -28,9 +28,12 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/bootstrap-icons/font/bootstrap-icons.css"
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+              "node_modules/aos/dist/aos.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/aos/dist/aos.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -92,9 +95,12 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/bootstrap-icons/font/bootstrap-icons.css"
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+              "node_modules/aos/dist/aos.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/aos/dist/aos.js"
+            ]
           }
         }
       }

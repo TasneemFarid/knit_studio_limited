@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { initFlowbite } from 'flowbite';
-import { HeadingComponent } from './components/heading/heading.component';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -22,5 +22,6 @@ export class AppComponent {
 
   ngOnInit(): void {
     initFlowbite();
+    AOS.init();
   }
 }
