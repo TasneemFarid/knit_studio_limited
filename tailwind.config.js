@@ -20,6 +20,7 @@ module.exports = {
         'achievementsBg': "url('/assets/images/achievements.jpg')",
         'contactFormBg': "url('/assets/images/contactFormBg.jpg')",
         'homeBg': "url('/assets/images/homeBg.jpg')",
+        'homeContactBg': "url('/assets/images/homeContactBg.jpg')",
       },
       fontFamily: {
         'poppins': ["Poppins", 'serif'],

@@ -4,6 +4,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { initFlowbite } from 'flowbite';
 import AOS from 'aos';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ import AOS from 'aos';
     RouterOutlet,
     NavbarComponent,
     ContactComponent,
+    SlickCarouselModule,
     // HeadingComponent
   ],
   templateUrl: './app.component.html',
