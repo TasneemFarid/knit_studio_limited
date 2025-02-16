@@ -8,7 +8,10 @@ import { NavbarComponent } from '../../components/navbar/navbar.component';
   selector: 'contact',
   standalone: true,
   imports: [
- 
+    HeadingComponent,
+    ButtonsComponent,
+    FooterComponent,
+    NavbarComponent,
   ],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.css'
