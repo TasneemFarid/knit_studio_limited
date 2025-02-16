@@ -5,14 +5,17 @@ import { FooterComponent } from '../../components/footer/footer.component';
 import { NavbarComponent } from '../../components/navbar/navbar.component';
 
 @Component({
-  selector: 'contact',
+  selector: 'app-career',
   standalone: true,
   imports: [
- 
+    HeadingComponent,
+    ButtonsComponent,
+    FooterComponent,
+    NavbarComponent,
   ],
-  templateUrl: './contact.component.html',
-  styleUrl: './contact.component.css'
+  templateUrl: './career.component.html',
+  styleUrl: './career.component.css'
 })
-export class ContactComponent {
+export class CareerComponent {
 
 }
