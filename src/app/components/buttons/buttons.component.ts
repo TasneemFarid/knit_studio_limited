@@ -9,5 +9,4 @@ import { Component, Input } from '@angular/core';
 })
 export class ButtonsComponent {
   @Input() text = '';
-  @Input() class = '';
 }
