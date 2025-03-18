@@ -18,6 +18,7 @@ module.exports = {
         contactFormBg: "url('/assets/images/contactFormBg.jpg')",
         homeBg: "url('/assets/images/homeBg.jpg')",
         homeContactBg: "url('/assets/images/homeContactBg.jpg')",
+        sustainibility: "url('/assets/images/Cangioli-1859_sustainability_details.jpg')",
       },
       fontFamily: {
         poppins: ["Poppins", "serif"],

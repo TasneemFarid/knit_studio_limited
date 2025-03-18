@@ -17,5 +17,7 @@ import { FooterComponent } from '../../components/footer/footer.component';
   styleUrl: './sustainibility.component.css'
 })
 export class SustainibilityComponent {
-
+  redirectToCareer() {
+    window.location.href = '/certificates';
+  }
 }
