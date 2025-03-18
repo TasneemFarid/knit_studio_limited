@@ -20,4 +20,8 @@ import { HeadingComponent } from '../../components/heading/heading.component';
 })
 export class HomeComponent {
 
+  redirectToCareer() {
+    window.location.href = '/career';
+  }
+
 }
