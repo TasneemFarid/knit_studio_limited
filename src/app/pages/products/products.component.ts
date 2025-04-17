@@ -21,4 +21,8 @@ export class ProductsComponent {
   ngOnInit(): void {
     initFlowbite();
   }
+
+  viewDetails(){
+    
+  }
 }
