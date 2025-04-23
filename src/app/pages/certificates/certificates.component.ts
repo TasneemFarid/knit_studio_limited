@@ -17,5 +17,10 @@ import { FooterComponent } from '../../components/footer/footer.component';
   styleUrl: './certificates.component.css'
 })
 export class CertificatesComponent {
-
+  downloadPdf() {
+    const link = document.createElement('a');
+    link.href = 'assets/certificates/NSI - AD APPLICATION.pdf';
+    link.download = 'sample.pdf';
+    link.click();
+  }
 }
