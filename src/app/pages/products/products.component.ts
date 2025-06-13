@@ -4,6 +4,8 @@ import { HeadingComponent } from '../../components/heading/heading.component';
 import { ButtonsComponent } from '../../components/buttons/buttons.component';
 import { FooterComponent } from '../../components/footer/footer.component';
 import { initFlowbite } from 'flowbite';
+import { ProductDetailsComponent } from '../product-details/product-details.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-products',
@@ -12,14 +14,15 @@ import { initFlowbite } from 'flowbite';
       NavbarComponent,
       HeadingComponent,
       ButtonsComponent,
-      FooterComponent
+      FooterComponent,
+      ProductDetailsComponent
     ],
   templateUrl: './products.component.html',
   styleUrl: './products.component.css'
 })
 export class ProductsComponent {
 
-  @Output() details = new EventEmitter<any>();
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
     initFlowbite();
@@ -185,6 +188,6 @@ export class ProductsComponent {
   ];
 
   viewDetails(value: any): void {
-  this.details.emit(value);
-}
+  this.router.navigate(['/products-details'],  { state: { data: value } });
+  }
 }
