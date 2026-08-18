@@ -1,18 +1,16 @@
 import { Component } from '@angular/core';
-import { NavbarComponent } from '../../components/navbar/navbar.component';
-import { FooterComponent } from '../../components/footer/footer.component';
 import { ButtonsComponent } from '../../components/buttons/buttons.component';
 import { RouterModule } from '@angular/router';
 import { HeadingComponent } from '../../components/heading/heading.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { GlobalReachComponent } from '../../components/global-reach/global-reach.component';
 
 
 @Component({
   selector: 'app-home',
   standalone: true,
   imports: [
-    NavbarComponent,
-    FooterComponent,
+    GlobalReachComponent,
     ButtonsComponent,
     HeadingComponent,
     RouterModule,
